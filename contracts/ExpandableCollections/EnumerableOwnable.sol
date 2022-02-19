@@ -49,7 +49,6 @@ contract EnumerableOwnable is
         _tokenIds.increment();
         
         uint256 newItemId = _tokenIds.current();
-        console.log("Sender balance is tokens",newItemId );
         _mint(msg.sender, newItemId);
         _setTokenURI(newItemId, _tokenURI);
 
