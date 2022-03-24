@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 /// @version: v0.0.1
-/// @creator: crustnft
+/// @creator: crustnft.io
 
 pragma solidity ^0.8.0;
 
